@@ -55,6 +55,18 @@ Este repositorio contiene notebooks desarrollados en Python utilizando librería
 -   **Práctica 4:** _Taxonomía de coches_ 🚘🧬
     Clustering jerárquico con dendrogramas para agrupar tipos de coches. Identificación de relaciones y número óptimo de clústers.
 
+#### 🧠 LABFinal - Perfil sintomático de pacientes con esquizofrenia
+
+Análisis clínico de más de 3000 pacientes con esquizofrenia mediante técnicas de minería de datos. Exploración de diferencias sintomáticas entre pacientes con inicio temprano y tardío del trastorno. Aplicación de:
+
+-   Clustering con K-Means para identificar perfiles sintomáticos diferenciados.
+
+-   Visualización 3D con PCA para interpretar la separación de grupos.
+
+-   Modelos supervisados (Random Forest y KNN) para clasificar pacientes según su edad de inicio.
+
+-   Evaluación con métricas, curvas ROC y análisis de importancia de variables clínicas (escala PANSS).
+
 ---
 
 ## 📂 Estructura de archivos
@@ -66,47 +78,71 @@ Este repositorio contiene notebooks desarrollados en Python utilizando librería
 │   ├── Practica_2_GRUPOC5.ipynb
 │   ├── Practica_3_GRUPOC5.ipynb
 │   ├── requirements.txt
-│   ├── 📁 media
+│   ├── LAB01 Preparación y visualización de datos 24-25.pdf
+│   ├── 📁 data
+│   │   └── Practica 1-3 Pokemon.csv
+│   └── 📁 media
 │       ├── Agua.png
 │       ├── Electrico.png
 │       ├── Enunciado Apartado 1.png
 │       ├── Fantasma.png
 │       ├── Fuego.png
 │       ├── Planta.png
-│       ├── Sin_Color.png
+│       └── Sin_Color.png
 ├── 📁 LAB02
 │   ├── Enunciado - Reglas de Asociación y Patrones Secuenciales.pdf
 │   ├── Practica_1_GRUPOC5.ipynb
 │   ├── Practica_2_GRUPOC5.ipynb
 │   ├── requirements.txt
-│   ├── 📁 resources
+│   ├── LAB02 Reglas de Asociación y Patrones Secuenciales.pdf
+│   └── 📁 data
 │       ├── Navegacion_Web.csv
-│       ├── Supermercado.csv
+│       └── Supermercado.csv
 ├── 📁 LAB03
 │   ├── Practica_1_GRUPOC5.ipynb
 │   ├── Practica_2_GRUPOC5.ipynb
 │   ├── Practica_3_GRUPOC5.ipynb
 │   ├── Practica_4_GRUPOC5.ipynb
+│   ├── LAB03 Clasificación.pdf
 │   ├── requirements.txt
-│   ├── 📁 datasets
-│       ├── nasa.csv
-│       ├── nasa_clasificar.csv
-│       ├── sf_crimenes.csv
-│       ├── monos.zip
-│       ├── cars.csv
+│   ├── 📁 data
+│   │   ├── nasa.csv
+│   │   ├── nasa_clasificar.csv
+│   │   ├── sf_crimenes.csv
+│   │   ├── monos.zip
+│   │   └── cars.csv
+│   └── 📁 media
+│       ├── arbol_entropia.png
+│       ├── entropy.png
+│       ├── gini.png
+│       ├── output_arbol_decision.svg
+│       └── output_monos.png
 ├── 📁 LAB04
 │   ├── Practica_1_GRUPOC5.ipynb
 │   ├── Practica_2_GRUPOC5.ipynb
 │   ├── Practica_3_GRUPOC5.ipynb
 │   ├── Practica_4_GRUPOC5.ipynb
+│   ├── LAB04 Regresión y Clustering.pdf
 │   ├── requirements.txt
-│   ├── 📁 datasets
+│   └── 📁 data
 │       ├── Consumo_cerveza.csv
 │       ├── cervezas.csv
 │       ├── incendios.csv
-│       ├── cars.csv
+│       └── cars.csv
+├── 📁 LABFinal
+│   ├── Practica_Final_GRUPOC5.ipynb
+│   ├── requirements.txt
+│   ├── 📁 data
+│   │    └── schizo.csv
+│   └── 📁 output
+│       ├── curva_roc_random_forest.png
+│       ├── importancia_sintomas_random_forest.png
+│       ├── matriz_confusion_knn.png
+│       ├── matriz_confusion_random_forest.svg
+│       ├── metodo_codo_num_optimo_clusteres.png
+│       └── visualizacion_clusters_3d.png
 ├── .gitignore
-├── README.md
+└── README.md
 ```
 
 > 📌 **Notas:**
